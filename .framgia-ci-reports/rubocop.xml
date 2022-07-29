@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='app/channels/application_cable/channel.rb'>
+    <error line='1' column='0' severity='info' message='Layout/EndOfLine: Carriage return character missing.' source='com.puppycrawl.tools.checkstyle.Layout/EndOfLine'/>
+  </file>
+  <file name='app/channels/application_cable/connection.rb'>
+    <error line='1' column='0' severity='info' message='Layout/EndOfLine: Carriage return character missing.' source='com.puppycrawl.tools.checkstyle.Layout/EndOfLine'/>
+  </file>
+  <file name='app/controllers/application_controller.rb'>
+    <error line='1' column='0' severity='info' message='Layout/EndOfLine: Carriage return character missing.' source='com.puppycrawl.tools.checkstyle.Layout/EndOfLine'/>
+  </file>
+  <file name='app/helpers/application_helper.rb'>
+    <error line='1' column='0' severity='info' message='Layout/EndOfLine: Carriage return character missing.' source='com.puppycrawl.tools.checkstyle.Layout/EndOfLine'/>
+  </file>
+  <file name='app/jobs/application_job.rb'>
+    <error line='1' column='0' severity='info' message='Layout/EndOfLine: Carriage return character missing.' source='com.puppycrawl.tools.checkstyle.Layout/EndOfLine'/>
+    <error line='5' column='80' severity='info' message='Layout/LineLength: Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+  </file>
+  <file name='app/mailers/application_mailer.rb'>
+    <error line='1' column='0' severity='info' message='Layout/EndOfLine: Carriage return character missing.' source='com.puppycrawl.tools.checkstyle.Layout/EndOfLine'/>
+  </file>
+  <file name='app/models/application_record.rb'>
+    <error line='1' column='0' severity='info' message='Layout/EndOfLine: Carriage return character missing.' source='com.puppycrawl.tools.checkstyle.Layout/EndOfLine'/>
+  </file>
+</checkstyle>
