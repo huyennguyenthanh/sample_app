@@ -1,0 +1,21 @@
+<footer class="text-center text-lg-start bg-light text-muted">
+  <nav>
+    <ul>
+      <li>
+        <%= link_to t("static_pages.about.about"), about_path %>
+      </li>
+      <li>
+        <%= link_to t("static_pages.contact.contact"), contact_path %>
+      </li>
+      <li>
+        <%= link_to t("static_pages.footer.news") , "https://news.railstutorial.org/" %>
+      </li>
+    </ul>
+  </nav>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    <small>
+      The <%= link_to "Ruby on Rails Tutorial" , "https://www.railstutorial.org/" %>
+        by <%= link_to "Michael Hartl" , "https://www.michaelhartl.com/" %>
+    </small>
+  </div>
+</footer>
