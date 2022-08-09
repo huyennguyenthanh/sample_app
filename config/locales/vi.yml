@@ -1,0 +1,43 @@
+vi:
+  helper:
+    base_title: "Ruby on Rails Tutorial Sample App"
+  title:
+    home: "Home"
+    help: "Help"
+    contact: "Contact"
+    about: "About"
+    signup: "Signup"
+  static_pages:
+    header:
+      home: "Trang chủ"
+      login: "Đăng nhập"
+      help: "Giúp đỡ"
+    footer:
+      news: "Tin tức"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+    about:
+      about: "Về chúng tôi"
+      the: ""
+      part: "là một phần của"
+      family: "bộ hướng dẫn, là một"
+      and: "và"
+      to_teach: "nhằm hướng dẫn phát triển ứng dụng web"
+      sample_app: " Đây là sản phẩm ví dụ cho bộ hướng dẫn này."
+      book: "sách"
+    help:
+      help: "Giúp đỡ"
+      s1: "Tìm kiếm giúp đỡ Ruby on Rails Tutorial tại đường link"
+      s2: "Tìm kiếm sách hướng dẫn tại"
+    contact:
+      contact: "Liên hệ"
+      s1: "Liên hệ Ruby on Rails Tutorial về ứng dụng ví dụ tại đường link"
+    home:
+      signupnow: "Đăng ký ngay!"
+      welcome_quote: "Chào mừng tới ứng dụng ví dụ!"
+      s1: "Đây là trang chủ"
+      s2: "cho ứng dụng ví dụ."
+  user:
+    new:
+      title: "Trang Đăng ký"
+      signup_quote: "Đây là trang đăng ký cho ngươi dùng mới."
