@@ -6,16 +6,9 @@ vi:
     help: "Trợ giúp"
     contact: "Liên hệ"
     about: "Về chúng tôi"
+    login: "Đăng nhập"
     signup: "Đăng ký"
   static_pages:
-    header:
-      home: "Trang chủ"
-      login: "Đăng nhập"
-      help: "Giúp đỡ"
-    footer:
-      news: "Tin tức"
-      about: "Về chúng tôi"
-      contact: "Liên hệ"
     about:
       about: "Về chúng tôi"
       the: ""
@@ -37,18 +30,48 @@ vi:
       welcome_quote: "Chào mừng tới ứng dụng ví dụ!"
       s1: "Đây là trang chủ"
       s2: "cho ứng dụng ví dụ."
-  user:
+  layouts:
+    header:
+      home: "Trang chủ"
+      login: "Đăng nhập"
+      help: "Trợ giúp"
+      profile: "Hồ sơ cá nhân"
+      settings: "Cài đặt"
+      user: "Người dùng"
+      logout: "Đăng xuất"
+      account: "Tài khoản"
+    footer:
+      news: "Tin tức"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+  users:
     new:
       title: "Trang Đăng ký"
-      label_name: "Họ và tên"
-      label_email: "Địa chỉ email"
-      label_pw: "Mật khẩu"
-      label_pw2: "Xác nhận lại mật khẩu"
       signup_quote: "Đây là trang đăng ký cho ngươi dùng mới."
       signup_button: "Tạo tài khoản mới"
+    create:
       signup_success: "Đăng ký tài khoản thành công!"
       signup_fail: "Có lỗi xảy ra. Vui lòng thử lại."
-      error_message: "Biểu mẫu bao gồm"
-      error: "lỗi"
     show:
       not_found: "Không tìm thấy người dùng."
+  shared:
+    error_messages: 
+      error_mess: "Biểu mẫu bao gồm"
+      error: "lỗi"
+  sessions:
+    new:
+      email: "Địa chỉ email"
+      password: "Mật khẩu"
+      mess: "Người dùng mới?"
+    create:
+      login_success: "Đăng nhập thành công."
+      login_fail: "Email hoặc mật khẩu không hợp lệ."
+  activerecord:
+    models:
+      user: User
+    attributes:
+      user:
+        name: "Tên"
+        email: "Địa chỉ email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận lại mật khẩu"     
