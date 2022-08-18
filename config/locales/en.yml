@@ -40,4 +40,15 @@ en:
   user:
     new:
       title: "Sign Up"
+      label_name: "Name"
+      label_email: "Email"
+      label_pw: "Password"
+      label_pw2: "Password confirmation"
       signup_quote: "This will be a signup page for new users."
+      signup_button: "Create new account"
+      signup_success: "Signup succesfully!"
+      signup_fail: "Errors occurred. Please try again."
+      error_message: "The form contains"
+      error: "error"
+    show:
+      not_found: "Not found user."

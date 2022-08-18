@@ -11,7 +11,7 @@ class User < ApplicationRecord
 
   validates :password, presence: true,
                       length: {minimum: Settings.validates.password_min_length}
-                    
+
   has_secure_password
 
   private

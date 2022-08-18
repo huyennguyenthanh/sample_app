@@ -2,11 +2,11 @@ vi:
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
   title:
-    home: "Home"
-    help: "Help"
-    contact: "Contact"
-    about: "About"
-    signup: "Signup"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    contact: "Liên hệ"
+    about: "Về chúng tôi"
+    signup: "Đăng ký"
   static_pages:
     header:
       home: "Trang chủ"
@@ -40,4 +40,15 @@ vi:
   user:
     new:
       title: "Trang Đăng ký"
+      label_name: "Họ và tên"
+      label_email: "Địa chỉ email"
+      label_pw: "Mật khẩu"
+      label_pw2: "Xác nhận lại mật khẩu"
       signup_quote: "Đây là trang đăng ký cho ngươi dùng mới."
+      signup_button: "Tạo tài khoản mới"
+      signup_success: "Đăng ký tài khoản thành công!"
+      signup_fail: "Có lỗi xảy ra. Vui lòng thử lại."
+      error_message: "Biểu mẫu bao gồm"
+      error: "lỗi"
+    show:
+      not_found: "Không tìm thấy người dùng."
