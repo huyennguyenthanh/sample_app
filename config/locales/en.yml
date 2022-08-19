@@ -8,6 +8,7 @@ en:
     about: "About"
     login: "Login"
     signup: "Signup"
+    edit: "Edit"
   static_pages:
     about:
       about: "About Us"
@@ -44,24 +45,33 @@ en:
       news: "News"
       about: "About"
       contact: "Contact"
+  shared:
+    error_message: 
+      error_mess: "The form contains"
+      error: "error"
   users:
     new:
       title: "Sign Up"
-      label_name: "Name"
-      label_email: "Name"
-      label_pw: "Password"
-      label_pw2: "Password confirmation"
       signup_quote: "This will be a signup page for new users."
       signup_button: "Create new account"
     create:
       signup_success: "Signup succesfully!"
       signup_fail: "Errors occurred. Please try again."
-    show:
-      not_found: "Not found user."
-  shared:
-    error_message: 
-      error_mess: "The form contains"
-      error: "error"
+    load_user:
+      not_found_user: "Not found user."
+    update:
+      update_success: "Update succesfully"
+      update_fail: "Errors occurred. Please try again."
+    destroy:
+      destroy_success: "User deleted"
+      destroy_fail: "Delete fail!"
+    index:
+      title: "All user"
+    user:
+      delete: "Delete"
+      comfirm : "You sure?"
+    login_require_mess: "Please log in."
+    update_correct_user_mess: "You cannot edit this account."
   sessions:
     new:
       email: "Email"
@@ -71,6 +81,8 @@ en:
     create:
       login_success: "Login succesfully."
       login_fail: "Invalid email/password combination"
+  save: "Save changes"
+  change: "Change"
   activerecord:
     models:
       user: User

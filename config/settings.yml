@@ -4,3 +4,8 @@ validates:
   name_max_length: 50
   email_max_length: 255
   password_min_length: 6
+avatar:
+  size_default: 80
+  index_page: 50
+pagination:
+  item_per_page: 10
