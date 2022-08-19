@@ -6,16 +6,9 @@ en:
     help: "Help"
     contact: "Contact"
     about: "About"
+    login: "Login"
     signup: "Signup"
   static_pages:
-    header:
-      home: "Home"
-      login: "Log in"
-      help: "Help"
-    footer:
-      news: "News"
-      about: "About"
-      contact: "Contact"
     about:
       about: "About Us"
       the: "The"
@@ -37,18 +30,48 @@ en:
       welcome_quote: "Welcome to the Sample App"
       s1: "This is the home page for the"
       s2: "sample application."
-  user:
+  layouts:
+    header:
+      home: "Home"
+      login: "Log in"
+      help: "Help"
+      profile: "Profile"
+      settings: "Settings"
+      user: "User"
+      logout: "Logout"
+      account: "Account"
+    footer:
+      news: "News"
+      about: "About"
+      contact: "Contact"
+  users:
     new:
       title: "Sign Up"
-      label_name: "Name"
-      label_email: "Email"
-      label_pw: "Password"
-      label_pw2: "Password confirmation"
       signup_quote: "This will be a signup page for new users."
       signup_button: "Create new account"
+    create:
       signup_success: "Signup succesfully!"
       signup_fail: "Errors occurred. Please try again."
-      error_message: "The form contains"
-      error: "error"
     show:
       not_found: "Not found user."
+  shared:
+    error_message: 
+      error_mess: "The form contains"
+      error: "error"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      mess: "New user?"
+    create:
+      login_success: "Login succesfully."
+      login_fail: "Invalid email/password combination"
+  activerecord:
+    models:
+      user: User
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
