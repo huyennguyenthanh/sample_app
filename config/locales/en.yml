@@ -46,7 +46,7 @@ en:
       about: "About"
       contact: "Contact"
   shared:
-    error_message: 
+    error_messages: 
       error_mess: "The form contains"
       error: "error"
   users:
@@ -56,6 +56,7 @@ en:
       signup_button: "Create new account"
     create:
       signup_success: "Signup succesfully!"
+      mail_validate_send: "Please check your email to activate your account."
       signup_fail: "Errors occurred. Please try again."
     load_user:
       not_found_user: "Not found user."
@@ -81,6 +82,14 @@ en:
     create:
       login_success: "Login succesfully."
       login_fail: "Invalid email/password combination"
+      account_not_activated: "account_not_activated"
+  account_activations:
+    edit:
+      activate_success: "Account activated!"
+      activate_fail: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      account_activation: "Account activation"
   save: "Save changes"
   change: "Change"
   activerecord:
