@@ -47,6 +47,10 @@ en:
   users:
     new:
       title: "Sign Up"
+      label_name: "Name"
+      label_email: "Name"
+      label_pw: "Password"
+      label_pw2: "Password confirmation"
       signup_quote: "This will be a signup page for new users."
       signup_button: "Create new account"
     create:
@@ -63,6 +67,7 @@ en:
       email: "Email"
       password: "Password"
       mess: "New user?"
+      remember_me: "Remember me on thí computer"
     create:
       login_success: "Login succesfully."
       login_fail: "Invalid email/password combination"

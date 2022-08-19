@@ -47,6 +47,10 @@ vi:
   users:
     new:
       title: "Trang Đăng ký"
+      label_name: "Họ và tên"
+      label_email: "Địa chỉ email"
+      label_pw: "Mật khẩu"
+      label_pw2: "Xác nhận lại mật khẩu"
       signup_quote: "Đây là trang đăng ký cho ngươi dùng mới."
       signup_button: "Tạo tài khoản mới"
     create:
@@ -63,6 +67,7 @@ vi:
       email: "Địa chỉ email"
       password: "Mật khẩu"
       mess: "Người dùng mới?"
+      remember_me: "Ghi nhớ tôi trên ứng dụng này."
     create:
       login_success: "Đăng nhập thành công."
       login_fail: "Email hoặc mật khẩu không hợp lệ."
