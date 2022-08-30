@@ -9,7 +9,8 @@ class UsersController < ApplicationController
   end
 
   def index
-    @pagy, @users = pagy(User.all, page: params[:page], items: Settings.pagination.item_per_page)
+    @pagy, @users = pagy(User.all, page: params[:page],
+items: Settings.pagination.item_per_page)
   end
 
   def show; end
@@ -17,9 +18,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".signup_success"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".mail_validate_send"
+      redirect_to root_path
     else
       flash.now[:fail] = t ".signup_fail"
       render :new
