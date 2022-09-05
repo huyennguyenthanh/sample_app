@@ -79,6 +79,7 @@ vi:
       password: "Mật khẩu"
       mess: "Người dùng mới?"
       remember_me: "Ghi nhớ tôi trên ứng dụng này."
+      forgot_password: "Quên mật khẩu?"
     create:
       login_success: "Đăng nhập thành công."
       login_fail: "Email hoặc mật khẩu không hợp lệ."
@@ -90,6 +91,28 @@ vi:
   user_mailer:
     account_activation:
       account_activation: "Kích hoạt tài khoản"
+      submit: "Gửi"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      click: "Để đặt lại mật khẩu, hãy nhấn vào link bên dưới"
+      link: "Đặt lại mật khẩu"
+      pass_reset_content: "Liên kết này sẽ hết hạn trong hai giờ.
+        Nếu bạn không yêu cầu mật khẩu của mình được đặt lại,
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ không bị thay đổi"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit_button: "Gửi email"
+    edit:
+      password: "Mật khẩu"
+      password_confirm: "Xác nhận lại mật khẩu"
+      submit_button: "Cập nhật mật khẩu"
+    update:
+      success: "Cập nhật mật khẩu thành công."
+      expired: "Đường dẫn quá hạn."
+    create:
+      email_sent: "Email đã được gửi cùng hướng dẫn đổi mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
   save: "Lưu thay đổi"
   change: "Thay đổi"
   activerecord:

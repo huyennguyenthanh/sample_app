@@ -9,3 +9,5 @@ avatar:
   index_page: 50
 pagination:
   item_per_page: 10
+password:
+  expired: 2
