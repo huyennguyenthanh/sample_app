@@ -31,6 +31,7 @@ en:
       welcome_quote: "Welcome to the Sample App"
       s1: "This is the home page for the"
       s2: "sample application."
+      microposts_feed: "Microposts Feed"
   layouts:
     header:
       home: "Home"
@@ -49,6 +50,12 @@ en:
     error_messages: 
       error_mess: "The form contains"
       error: "error"
+    user_info:
+      view_my_profile: "view my profile"
+    micropost_form:
+      new_post: "Compose new micropost..."
+      post_button: "Post"
+      large_image_error: "Maximum file size is 5MB. Please choose a smaller file."
   users:
     new:
       title: "Sign Up"
@@ -99,6 +106,16 @@ en:
         If you did not request your password to be reset,
         please ignore this email and your password will stay
         as it is."
+  microposts:
+    create:
+      success: "Micropost created!"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      confirm: "Are you sure to delete this post?"
+    destroy:
+      delete: "Micropost deleted"
   password_resets:
     new:
       title: "Forgot password"
@@ -118,9 +135,20 @@ en:
   activerecord:
     models:
       user: User
+      micropost: Micropost
     attributes:
       user:
         name: "Name"
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
+      micropost:
+        content: "Content"
+        image: "Image"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              wrong_format: "must be a valid image format"
+              too_big: "should be less than 5MB"

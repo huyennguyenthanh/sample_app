@@ -1,9 +1,12 @@
 regex:
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 validates:
-  name_max_length: 50
-  email_max_length: 255
-  password_min_length: 6
+  users:
+    name_max_length: 50
+    email_max_length: 255
+    password_min_length: 6
+  microposts:
+    content_max_length: 255
 avatar:
   size_default: 80
   index_page: 50
@@ -11,3 +14,10 @@ pagination:
   item_per_page: 10
 password:
   expired: 2
+micropost:
+  content_max_length: 255
+  accept_path: "image/jpeg,image/gif,image/png"
+  size: 50
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  image_resize: [500, 500]
+  image_size: 5

@@ -31,6 +31,7 @@ vi:
       welcome_quote: "Chào mừng tới ứng dụng ví dụ!"
       s1: "Đây là trang chủ"
       s2: "cho ứng dụng ví dụ."
+      microposts_feed: "Bảng tin bài đăng"
   layouts:
     header:
       home: "Trang chủ"
@@ -49,6 +50,12 @@ vi:
     error_messages: 
       error_mess: "Biểu mẫu bao gồm"
       error: "lỗi"
+    user_info:
+      view_my_profile: "Xem hồ sơ cá nhân"
+    micropost_form:
+      new_post: "Thử viết bài đăng mới..."
+      post_button: "Đăng"
+      large_image_error: "Dung lượng file lơn nhất là 5MB. VUi lòng chọn file nhỏ hơn."
   users:
     new:
       title: "Trang Đăng ký"
@@ -99,6 +106,16 @@ vi:
       pass_reset_content: "Liên kết này sẽ hết hạn trong hai giờ.
         Nếu bạn không yêu cầu mật khẩu của mình được đặt lại,
         vui lòng bỏ qua email này và mật khẩu của bạn sẽ không bị thay đổi"
+  microposts:
+    create:
+      success: "Tạo bài đăng thành công"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      delete: "Xóa"
+      confirm: "Bạn có chắc muốn xóa bài viết này?"
+    destroy:
+      delete: "Bài đăng đã bị xóa"
   password_resets:
     new:
       title: "Quên mật khẩu"
@@ -118,9 +135,20 @@ vi:
   activerecord:
     models:
       user: User
+      micropost: Micropost
     attributes:
       user:
         name: "Tên"
         email: "Địa chỉ email"
         password: "Mật khẩu"
-        password_confirmation: "Xác nhận lại mật khẩu"     
+        password_confirmation: "Xác nhận lại mật khẩu"  
+      micropost:
+        content: "Nội dung"
+        image: "Hình ảnh"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              wrong_format: "có định dạng hình ảnh không hợp lệ."
+              too_big: "có kích thước quá lớn vượt quá 5MB" 
