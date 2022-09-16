@@ -56,6 +56,9 @@ vi:
       new_post: "Thử viết bài đăng mới..."
       post_button: "Đăng"
       large_image_error: "Dung lượng file lơn nhất là 5MB. VUi lòng chọn file nhỏ hơn."
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   users:
     new:
       title: "Trang Đăng ký"
@@ -78,6 +81,20 @@ vi:
     user:
       delete: "Xóa"
       comfirm : "Bạn có chắc muốn xóa người dùng này?"
+    follow_form:
+      follow: "Theo dõi"
+      unfollow: "Hủy theo dõi"
+    following:
+      title: "Đang theo dõi"
+    followers:
+      title: "Được theo dõi"
+    show_follow:
+      view_my_profile: "Xem bài đăng của tôi"
+      micropost: "Bài đăng"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
     login_require_mess: "Vui lòng đăng nhập trước."
     update_correct_user_mess: "Bạn không có quyền chỉnh sửa người dùng này."
   sessions:
@@ -130,6 +147,11 @@ vi:
     create:
       email_sent: "Email đã được gửi cùng hướng dẫn đổi mật khẩu"
       email_not_found: "Không tìm thấy địa chỉ email"
+  relationships:
+    find_user_for_create:
+      not_found: "Không tìm thấy người dùng"
+    find_user_for_destroy:
+      not_found: "Không tìm thấy người dùng"
   save: "Lưu thay đổi"
   change: "Thay đổi"
   activerecord:
