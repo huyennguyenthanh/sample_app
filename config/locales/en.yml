@@ -56,6 +56,9 @@ en:
       new_post: "Compose new micropost..."
       post_button: "Post"
       large_image_error: "Maximum file size is 5MB. Please choose a smaller file."
+    stats:
+      following: "following"
+      followers: "follower"
   users:
     new:
       title: "Sign Up"
@@ -78,6 +81,20 @@ en:
     user:
       delete: "Delete"
       comfirm : "You sure?"
+    follow_form:
+      follow: "Follow"
+      unfollow: "Unfollow"
+    following:
+      title: "Following"
+    followers:
+      title: "Follower"
+    show_follow:
+      view_my_profile: "View my profile"
+      micropost: "Micropost"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
     login_require_mess: "Please log in."
     update_correct_user_mess: "You cannot edit this account."
   sessions:
@@ -130,6 +147,11 @@ en:
     create:
       email_sent: "Email sent with password reset instructions"
       email_not_found: "Email address not found"
+  relationships:
+    find_user_for_create:
+      not_found: "User not found"
+    find_user_for_destroy:
+      not_found: "User not found"
   save: "Save changes"
   change: "Change"
   activerecord:

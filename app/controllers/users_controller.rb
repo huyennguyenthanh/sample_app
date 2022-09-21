@@ -51,6 +51,18 @@ items: Settings.pagination.item_per_page)
     redirect_to users_path
   end
 
+  def following
+    @title = t ".title"
+    @pagy, @users = pagy(@user.following, page: params[:page])
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".title"
+    @pagy, @users = pagy(@user.followers, page: params[:page])
+    render :show_follow
+  end
+
   private
   def user_params
     params.require(:user).permit(:name, :email, :password,
